@@ -6,6 +6,7 @@ class ArrayOpe{
 	int size;
 	int arr[];
 	Scanner sc = new Scanner(System.in);
+	//operation 1
 	public void createArray() {
 		// TODO Auto-generated method stub
 		System.out.println("Enter the size of the array");
@@ -14,6 +15,7 @@ class ArrayOpe{
 		System.out.println("Array is now created");
 		System.out.println("---------");
 	}
+	//operation 2
 	public void insertData() {
 		System.out.println("Insert the data into the array: ");
 		for(int i = 0;i < size;i++) {
@@ -25,6 +27,7 @@ class ArrayOpe{
 		
 	
 	}
+	//operation 3
 	public void deleteData() {
 
 			System.out.println("Enter the number to be deleted: ");
@@ -57,6 +60,7 @@ class ArrayOpe{
 		System.out.println("------------");
 		
 	}
+	//operation 4
 	public void updateData() {
 		System.out.println("Enter the data to be updated : ");
 		int data = sc.nextInt();
@@ -70,6 +74,7 @@ class ArrayOpe{
 			System.out.println("-------");
 		}
 	}
+	//operation 5
 	public void display() {
 		for(int i =0; i < size;i++) {
 			System.out.println(arr[i] +" ");
@@ -82,7 +87,6 @@ public class ArrayOperations {
 		ArrayOpe ao = new ArrayOpe();
 		ao.createArray();
 		ao.insertData();
-		//ao.display();
 		ao.deleteData();
 		ao.updateData();
 		ao.display();
