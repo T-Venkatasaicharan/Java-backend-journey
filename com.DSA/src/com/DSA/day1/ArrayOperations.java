@@ -84,10 +84,8 @@ public class ArrayOperations {
 		ao.insertData();
 		//ao.display();
 		ao.deleteData();
-		//ao.display();
 		ao.updateData();
 		ao.display();
-		System.out.println("Final output ");
 		
 		
 	}
