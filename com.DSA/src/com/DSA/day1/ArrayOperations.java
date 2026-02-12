@@ -87,6 +87,7 @@ public class ArrayOperations {
 		//ao.display();
 		ao.updateData();
 		ao.display();
+		System.out.println("Final output ");
 		
 		
 	}
