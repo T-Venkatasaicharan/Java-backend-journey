@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 /.metadata/
+=======
+#compiled Java files
+*.class
+# Eclipse files
+.project
+.classpath
+.settings/
+# Compiled output
+bin/
+>>>>>>> e4eb4785223154d0466fe1bec87c41a73f3a10cd
