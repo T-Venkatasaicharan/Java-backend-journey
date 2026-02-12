@@ -80,6 +80,21 @@ class ArrayOpe{
 			System.out.println(arr[i] +" ");
 		}
 	}
+	//operation 6
+	public void search() {
+		System.out.println("Enter the data to be searched: ");
+		int data = sc.nextInt();
+		int pos = -1;
+		for(int i = 0;i < size;i++) {
+			if(data == arr[i]) {
+				pos = i;
+			}
+		}if(pos > 0) {
+			System.out.println("Element found in pos no : " + pos);
+		}else {
+			System.out.println("Element not found");
+		}
+	}
 	
 }
 public class ArrayOperations {
@@ -90,6 +105,7 @@ public class ArrayOperations {
 		ao.deleteData();
 		ao.updateData();
 		ao.display();
+		ao.search();
 		
 		
 	}
