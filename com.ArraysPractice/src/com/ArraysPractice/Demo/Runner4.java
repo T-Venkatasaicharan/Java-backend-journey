@@ -4,7 +4,6 @@ class Sum{
 	int[] arr = {10,2,30,40};
 	int large = 0;
 	Sum(){
-	int[] arr = {10,2,30,40};
 	for(int i = 0; i < arr.length;i++) {
 		sum = sum + arr[i];
 	}
