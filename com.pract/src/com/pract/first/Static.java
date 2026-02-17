@@ -16,6 +16,8 @@ public class Static {
 		//    The class "owns " the static member
 		Friends f = new Friends("sai");
 		System.out.println(Friends.noOfFriends);
+		Friends f1 = new Friends("charan");
+		System.out.println(Friends.noOfFriends);
 		//f.man();
 		}
 }
