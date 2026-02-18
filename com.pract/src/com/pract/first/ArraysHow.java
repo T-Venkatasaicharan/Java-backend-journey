@@ -1,6 +1,7 @@
 package com.pract.first;
 class D2Darray{
 	D2Darray(){
+		Iterable
 		String[][] cars = new String[2][2];
 		cars[0][0] = "swift";
 		cars[0][1] = "bmw";
@@ -9,12 +10,10 @@ class D2Darray{
 		for(int i = 0;i < cars.length;i++) {
 			System.out.println();
 			for(int j = 0;j < cars[i].length;j++) {
-				System.out.print(cars[i][j] + " ");
-				
+				System.out.print(cars[i][j] + " ");			
 			}
 		}
-		System.out.println();
-				
+		System.out.println();				
 	}
 }
 public class ArraysHow {
@@ -30,8 +29,7 @@ public class ArraysHow {
 		//bikes[3] = "cycle";
 		System.out.println(bikes[2]);
 		for(int i = 0;i < cars.length;i++) {
-			System.out.println(cars[i] +" " + (i+1));
-			
+			System.out.println(cars[i] +" " + (i+1));			
 		}
 	}
 	

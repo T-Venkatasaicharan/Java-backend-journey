@@ -1,6 +1,4 @@
 package com.pract.first;
-
-
 class Food{
 	String name;
 	Food(String name){
@@ -17,7 +15,6 @@ public class ArrayOfTheObjects {
 		for(int i = 0;i < freez.length;i++) {
 			System.out.println(freez[i].name);
 		}
-		//System.out.println();
-		
+		//System.out.println();a		
 	}
 }
